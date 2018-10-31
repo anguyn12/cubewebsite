@@ -1,0 +1,142 @@
+/* Taxonomy terms on node pages */
+div.vocab-wrapper {
+	margin-bottom: 8px;
+	padding: 4px;
+	border: dotted #CCCCCC;
+	border-width: 1px 0 1px 0;
+	text-align: left;
+	clear: both;
+}
+
+span.vocab-label {
+	width: 120px;
+	height: 100%;
+	display: block;
+	float: left;
+}
+
+span.vocab-terms {
+	margin-left: 120px;
+	display: block;
+}
+
+span.term-extra-more {
+	display: none;
+	text-align: right;
+}
+
+img.term-extra-arrow {
+	margin: 0 2px -2px 0;
+}
+
+div#social-media-widgets {
+	margin: 8px 0 0 0;
+}
+
+/* Related content for node pages and teasers */
+div.related-content {
+	width: 302px;
+	margin: 10px 0 0 10px;
+	float: right;
+	text-align: center;
+}
+
+div.related-content div.content {
+	margin-bottom: 10px;
+}
+
+div.related-content div.block ul li {
+	line-height: 1.5em;
+}
+
+div#main-content div.related-content-teaser, div#main-content-single-column div.related-content-teaser {
+	margin: 0 0 10px 10px;
+	float: right;
+}
+
+div.related-content-teaser {
+	float: right !important;
+}
+
+/* Related content jcarousel */
+div#related-content-media .jcarousel-skin-tango .jcarousel-container {
+	padding: 9px 24px 10px 32px;
+}
+
+div#related-content-media .jcarousel-skin-tango .jcarousel-clip-horizontal {
+	height: 130px;
+}
+
+div#related-content-media .jcarousel-skin-tango .jcarousel-item {
+	height: 130px;
+	background: #333333;
+}
+
+div#related-content-media .jcarousel-skin-tango .jcarousel-prev-horizontal {
+	margin-top: 10px;
+	left: 0;
+}
+
+div#related-content-media .jcarousel-skin-tango .jcarousel-next-horizontal {
+	margin-top: 10px;
+	right: 0;
+}
+
+div.related-media-lead-type {
+	margin: 0 auto;
+	padding: 2px;
+}
+
+div.related-media-type {
+	margin: 0 auto;
+    padding: 4px;
+}
+
+div.related-media-type {
+    /*background: #333333;
+    color: #FFFFFF;
+    font-size: 80%;*/
+}
+
+div.related-media-lead-title {
+	padding-bottom: 4px;
+}
+
+div.related-media-lead-more {
+    font-size: 80%;
+    text-align: center;
+}
+
+div#related-content-media, div#related-content-geolocation {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+div#related-content-other {
+	text-align: left;
+}
+
+div#related-content-other div.item-list {
+	padding-bottom: 4px;
+}
+
+div#related-content-caption {
+	margin-bottom: 10px;
+	text-align: left;
+	padding: 0 10px;
+}
+
+div.business-list-image-wrapper img {
+	border: 0;
+}
+ul#related-content-slider {
+    list-style-type: none;
+}
+
+@media only screen and (max-width : 600px) {
+
+	div.related-content {
+		width: 100%;
+	}
+
+}
